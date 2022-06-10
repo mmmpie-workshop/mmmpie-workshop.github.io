@@ -12,3 +12,66 @@ body{
 A:link { text-decoration: none; font-weight:bold; color:#5946b2; }
 A:visited { text-decoration: none; font-weight:bold; color:#5946b2; }
 A:hover { text-decoration: none; font-weight:bold; color:#5946b2; }
+
+
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 0px solid #ccc;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: #5a4fcf;
+  float: left;
+  border: 0.1rem solid #fff;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  border-radius: 0%;
+  color:#fff;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #cec1f0;
+    top: -0.5rem;
+    transition: top 0.25s;
+    color:#fff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #cec1f0;
+  border-bottom: 0px solid #5a4fcf;
+}
+
+
+
+.tab-label {
+  position: relative;
+  display: block;
+  line-height: 2.75em;
+  height: 3em;
+  padding: 0 1.618em;
+  background: #5a4fcf;
+  border-right: 1.05rem solid #fff;
+  color: #fff;
+  cursor: pointer;
+  top: 0;
+  transition: all 0.25s;
+}
+.tab-label:hover {
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 0px solid #ccc;
+  border-top: none;
+}
